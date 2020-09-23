@@ -1,0 +1,98 @@
+[Root]
+Most Recent Package=setup
+
+
+[Package|setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\VB\Folder locking\Files\Paket
+
+[Package|setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|setup|Files Found]
+
+[Package|setup|Files Released]
+
+[Package|setup|Missing Dependency Information]
+C:\WINDOWS\system32\uxtheme.dll=
+
+[Package|setup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|setup|Files Added]
+
+[Package|setup|Files Removed]
+
+[Package|setup|Files In Project]
+F:\VB\Folder locking\Files\prjFolderLocking.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6DE.DLL=Yes
+C:\WINDOWS\system32\uxtheme.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCDE.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|setup|Configure Registry Files]
+Applicable=No
+
+[Package|setup|Configure Remote Servers]
+Applicable=No
+
+[Package|setup|Install Locations]
+F:\VB\Folder locking\Files\prjFolderLocking.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6DE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\uxtheme.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCDE.DLL=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|setup|Configure Shared Files]
+Applicable=Yes
+F:\VB\Folder locking\Files\prjFolderLocking.exe=No
+
+[Package|setup|Distribution]
+Type=single
+Size=
+Title=Folder Locking
+
+[Package|setup|IconGroups]
+Group0=Folder Locking
+PrivateGroup0=Wahr
+Parent0=$(Programs)
+
+[Package|setup|Folder Locking]
+Icon1=prjFolderLocking.exe
+Title1=Folder Locking
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|setup|Package]
+PackageFolder=F:\VB\Folder locking\Files\Paket
+ProjectFolder=F:\VB\Folder locking\Files
+ServerSideCab=
+File1=F:\VB\Folder locking\Files\Paket\setup.exe
+File2=F:\VB\Folder locking\Files\Paket\Setup.Lst
+File3=F:\VB\Folder locking\Files\Paket\prjFolderLocking.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
